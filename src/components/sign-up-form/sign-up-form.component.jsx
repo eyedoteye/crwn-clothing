@@ -3,7 +3,6 @@ import "./sign-up-form.styles.scss";
 import { useState } from "react";
 
 import Button from "../button/button.component";
-
 import {
   createAuthUserWithEmailAndPassword,
   createUserDocumentFromAuth,

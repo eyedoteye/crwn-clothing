@@ -27,19 +27,3 @@ export const NavLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
 `;
-
-export const SignOutLink = styled.span`
-  padding: 10px 15px;
-  cursor: pointer;
-`;
-// .navigation {
-
-//   .logo-container {
-//   }
-//   .nav-links-container {
-
-//     .nav-link {
-
-//     }
-//   }
-// }

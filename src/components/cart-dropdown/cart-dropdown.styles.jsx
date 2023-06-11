@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-import CartItem from "../cart-item/cart-item.component";
 import { BaseButton } from "../button/button.styles";
 
 export const CartDropdownContainer = styled.div`

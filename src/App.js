@@ -22,7 +22,6 @@ const App = () => {
         createUserDocumentFromAuth(user);
       }
       dispatch(setCurrentUser(user));
-      //console.log(setCurrentUser(user));
     });
 
     return unsubscribe;

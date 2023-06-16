@@ -2,7 +2,6 @@ import { compose, createStore, applyMiddleware } from "redux";
 import logger from "redux-logger";
 
 import { rootReducer } from "./root-reducer";
-import { createAction } from "../utils/reducer/reducer.utils";
 
 // const loggerMiddleware = (store) => (next) => (action) => {
 //   if (!action.type) {

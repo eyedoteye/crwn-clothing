@@ -15,10 +15,10 @@ const Shop = () => {
   useEffect(() => {
     const getCategoriesMap = async () => {
       const categoriesArray = await getCategoriesAndDocuments();
-      //console.log(categoriesArray);
       dispatch(setCategories(categoriesArray));
     };
     getCategoriesMap();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
